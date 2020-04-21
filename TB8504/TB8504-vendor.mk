@@ -347,9 +347,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB8504/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/lenovo/TB8504/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/lenovo/TB8504/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
-    vendor/lenovo/TB8504/proprietary/vendor/quectel/chat:$(TARGET_COPY_OUT_VENDOR)/system/bin/chat \
-    vendor/lenovo/TB8504/proprietary/vendor/quectel/ip-up:$(TARGET_COPY_OUT_VENDOR)/system/etc/ppp/ip-up \
-    vendor/lenovo/TB8504/proprietary/vendor/quectel/ip-down:$(TARGET_COPY_OUT_VENDOR)/system/etc/ppp/ip-down \
+    vendor/lenovo/TB8504/proprietary/vendor/quectel/chat:/system/bin/chat \
+    vendor/lenovo/TB8504/proprietary/vendor/quectel/ip-up:$/system/etc/ppp/ip-up \
+    vendor/lenovo/TB8504/proprietary/vendor/quectel/ip-down:/system/etc/ppp/ip-down \
     vendor/lenovo/TB8504/proprietary/vendor/quectel/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so 
     
 
