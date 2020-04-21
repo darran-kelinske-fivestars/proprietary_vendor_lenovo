@@ -350,7 +350,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB8504/proprietary/vendor/quectel/chat:$(TARGET_COPY_OUT_VENDOR)/system/bin/chat \
     vendor/lenovo/TB8504/proprietary/vendor/quectel/ip-up:$(TARGET_COPY_OUT_VENDOR)/system/etc/ppp/ip-up \
     vendor/lenovo/TB8504/proprietary/vendor/quectel/ip-down:$(TARGET_COPY_OUT_VENDOR)/system/etc/ppp/ip-down \
-    vendor/lenovo/TB8504/proprietary/vendor/quectel/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/system/lib64/libreference-ril.so 
+    vendor/lenovo/TB8504/proprietary/vendor/quectel/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so 
     
 
 PRODUCT_PACKAGES += \
